@@ -15,14 +15,15 @@ versuch = 0
 while zahl != c:
     # Anzahl Versuche
     versuch = versuch + 1
-# Eingabe mit Umwandlung
-print("Bitte eine Zahl eingeben:")
-z = input()
-zahl = int(z)
-# Verzweigung
-if zahl == c:
-    print(zahl, "ist richtig")
-else:print(zahl, "ist falsch")
-# Anzahl ausgeben
-print("Ergebnis: ", c)
-print("Anzahl Versuche:", versuch)
+    # Eingabe mit Umwandlung
+    print("Bitte eine Zahl eingeben:")
+    z = input()
+    zahl = int(z)
+    # Verzweigung
+    if zahl == c:
+        print(zahl, "ist richtig")
+    else:
+        print(zahl, "ist falsch")
+    # Anzahl ausgeben
+    print("Ergebnis: ", c)
+    print("Anzahl Versuche:", versuch)
