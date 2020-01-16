@@ -1,2 +1,5 @@
-// Kommentare in JS immer mit 2 Slash    
-console.log('Hello World');
+
+let name = 'Mosh';
+console.log(name);
+// Cannot be a reserved keyword
+// Should be meaningful
