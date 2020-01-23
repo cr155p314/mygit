@@ -13,7 +13,7 @@ def game_ends(winner_name):
     print(f'{winner_name} won the game')
 
 
-while game_running == True:
+while game_running is True:
     counter = 0
     new_round = True
     player = {'name': 'Chriss', 'attack': 13,
@@ -27,7 +27,7 @@ while game_running == True:
     print(player['name'] + ' has ' + str(player['health']) + ' health')
     print(monster['name'] + ' has ' + str(monster['health']) + ' health')
 
-    while new_round == True:
+    while new_round is True:
 
         counter = counter + 1
         player_won = False
@@ -70,7 +70,7 @@ while game_running == True:
         else:
             print('Invalid Input')
 
-        if player_won == False and monster_won == False:
+        if player_won is False and monster_won is False:
             print(player['name'] + ' has ' + str(player['health']) + ' left')
             print(monster['name'] + ' has ' + str(monster['health']) + ' left')
 
@@ -90,5 +90,5 @@ while game_running == True:
             print(game_results)
             new_round = False
 
-        if player_won == True or monster_won == True:
+        if player_won is True or monster_won is True:
             new_round = False
