@@ -6,6 +6,7 @@ game_results = []
 def calculate_monster_attack(attack_min, attack_max):
     return randint(attack_min, attack_max)
 
+
 def game_ends(winner_name):
     print(f'{winner_name} won the game')
 
