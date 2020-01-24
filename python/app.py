@@ -1,8 +1,5 @@
-count = 0
+x = [1, 2, 3]
+print(id(x))
 
-for number in range(1, 10):
-    if number % 2 == 0:
-        count += 1
-        print(number)
-
-print(f"We have {count} even numbers")
+x.append(4)
+print(id(x))

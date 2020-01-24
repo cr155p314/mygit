@@ -2,7 +2,7 @@
     "workbench.settings.useSplitJSON": true,
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Enabled": false,
     "python.linting.banditEnabled": false,
     "python.pythonPath": "/usr/local/bin/python3",
     "code-runner.executorMap": {
@@ -49,5 +49,6 @@
         "lisp": "sbcl --script",
         "kit": "kitc --run",
         "v": "v run"
-    }
+    },
+    "python.linting.mypyEnabled": true
 }
