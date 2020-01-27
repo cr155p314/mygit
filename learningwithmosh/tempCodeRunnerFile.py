@@ -1,5 +1,3 @@
-def increment(number, by):
-    return (number, number + by)
-
-
-print(increment(2, 3))
+def speed():
+  speed = 70
+  point = 0

@@ -14,5 +14,6 @@ for name in names:  # for schleife in name
     if name.startswith("J"):  # wenn der name mit J beginnt
         print("Found")  # drucke "found"
         break  # beende for schleife
-else:  # trifft obiges nicht zu
-    print("Not found")  # drucke "Not found"
+
+    else:  # trifft obiges nicht zu
+        print("Not found")  # drucke "Not found"
